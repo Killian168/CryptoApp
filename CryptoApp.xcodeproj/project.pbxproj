@@ -21,6 +21,7 @@
 		B0E0B88B28343DF400A58732 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E0B88A28343DF400A58732 /* PreviewProvider.swift */; };
 		B0E0B88D28343FC600A58732 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E0B88C28343FC600A58732 /* Double.swift */; };
 		B0E0B88F2834442900A58732 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E0B88E2834442900A58732 /* HomeViewModel.swift */; };
+		B0E0B892283449AE00A58732 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E0B891283449AE00A58732 /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B0E0B88A28343DF400A58732 /* PreviewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewProvider.swift; path = ../../../Resources/Extensions/PreviewProvider.swift; sourceTree = "<group>"; };
 		B0E0B88C28343FC600A58732 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		B0E0B88E2834442900A58732 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B0E0B891283449AE00A58732 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		B0E0B85D2834296700A58732 /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				B0E0B8902834498000A58732 /* Services */,
 				B0E0B881283438B500A58732 /* Models */,
 				B0E0B87028342BC800A58732 /* Extensions */,
 				B0E0B87328342D8E00A58732 /* Core */,
@@ -163,6 +166,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		B0E0B8902834498000A58732 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B0E0B891283449AE00A58732 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,6 +249,7 @@
 				B0E0B87828342DB700A58732 /* HomeView.swift in Sources */,
 				B0E0B85F2834296700A58732 /* CryptoApp.swift in Sources */,
 				B0E0B87C28342EA200A58732 /* CircleButtonView.swift in Sources */,
+				B0E0B892283449AE00A58732 /* CoinDataService.swift in Sources */,
 				B0E0B87228342BEA00A58732 /* Color.swift in Sources */,
 				B0E0B88B28343DF400A58732 /* PreviewProvider.swift in Sources */,
 				B0E0B88F2834442900A58732 /* HomeViewModel.swift in Sources */,
