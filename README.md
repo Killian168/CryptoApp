@@ -1,7 +1,7 @@
 #  CryptoApp
 
 ## Description
-This is an IOS appliaction that is the result of a youtube course.
+This is an IOS application that is the result of a youtube course.
 
 ## Technologies
 
