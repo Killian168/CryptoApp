@@ -22,8 +22,10 @@ struct HomeView: View {
             // Content View
             VStack {
                 homeHeader
-                columnTitles
                 
+                SearchBarView(searchText: $vm.searchText)
+                
+                columnTitles
                 if showPortfolio {
                     portfolioCoinsList
                         .transition(.move(edge: .trailing))
