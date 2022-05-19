@@ -26,6 +26,7 @@
 		B0E0B8982835728500A58732 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E0B8972835728500A58732 /* CoinImageView.swift */; };
 		B0E0B89A283573FD00A58732 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E0B899283573FD00A58732 /* CoinImageService.swift */; };
 		B0E0B89C283575BC00A58732 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E0B89B283575BC00A58732 /* CoinImageViewModel.swift */; };
+		B0E0B89E28362CDF00A58732 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E0B89D28362CDE00A58732 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B0E0B8972835728500A58732 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		B0E0B899283573FD00A58732 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		B0E0B89B283575BC00A58732 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		B0E0B89D28362CDE00A58732 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				B0E0B8942834512900A58732 /* NetworkingManager.swift */,
+				B0E0B89D28362CDE00A58732 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				B0E0B89C283575BC00A58732 /* CoinImageViewModel.swift in Sources */,
 				B0E0B88F2834442900A58732 /* HomeViewModel.swift in Sources */,
 				B0E0B8802834349B00A58732 /* View.swift in Sources */,
+				B0E0B89E28362CDF00A58732 /* LocalFileManager.swift in Sources */,
 				B0E0B8852834394700A58732 /* Coin.swift in Sources */,
 				B0E0B8982835728500A58732 /* CoinImageView.swift in Sources */,
 				B0E0B88D28343FC600A58732 /* Double.swift in Sources */,
